@@ -32,7 +32,7 @@ namespace WebApiPractice.Controllers
         }
 
         [HttpGet("{categoryId}")]
-        [ProducesResponseType(200, Type = typeof(Pokemon))]
+        [ProducesResponseType(200, Type = typeof(Category))]
         [ProducesResponseType(400)]
         public IActionResult GetCategory(int categoryId)
         {
@@ -45,6 +45,21 @@ namespace WebApiPractice.Controllers
                 return BadRequest(ModelState);
             }
             return Ok(category);
+        }
+
+
+        [HttpGet("pokemon/{categoryId}")]
+        [ProducesResponseType(200, Type = typeof(IEnumerable<Pokemon>))]
+        [ProducesResponseType(400)]
+        public IActionResult GetCategoryById(int categoryId)
+        {
+            var pokemons = _mapper.Map<List<PokemonDto>>(_categoryRepository.GetPokemonByCategory(categoryId);
+
+            if(!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            return Ok(pokemons);
         }
     }
     

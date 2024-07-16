@@ -8,6 +8,9 @@ namespace WebApiPractice.Helper
     {
         public MappingProfiles() { 
             CreateMap<Pokemon, PokemonDto>();
+            CreateMap<Category, CategoriesDto>();
+            CreateMap<Country, CountryDto>();
+            CreateMap<Owner,OwnerDto>();
         }
     }
 }
