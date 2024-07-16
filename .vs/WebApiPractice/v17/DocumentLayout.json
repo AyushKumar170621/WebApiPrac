@@ -1,0 +1,328 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\helper\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\helper\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\repository\\pokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\repository\\pokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\interfaces\\ipokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\interfaces\\ipokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\migrations\\20240715084220_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\migrations\\20240715084220_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\modals\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\modals\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\modals\\reviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\modals\\reviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\modals\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\modals\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\modals\\pokemonowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\modals\\pokemonowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\modals\\pokemoncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\modals\\pokemoncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\modals\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\modals\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Migrations\\20240715083639_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApiPractice\\Migrations\\20240715083639_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|c:\\users\\ayushk\\source\\repos\\webapipractice\\webapipractice\\webapipractice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B87D226-6B2E-41BD-8BBF-66699959BD44}|WebApiPractice\\WebApiPractice.csproj|solutionrelative:webapipractice\\webapipractice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebApiPractice\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebApiPractice\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwCQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T07:16:55.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PokemonController.cs",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Controllers\\PokemonController.cs",
+              "RelativeDocumentMoniker": "WebApiPractice\\Controllers\\PokemonController.cs",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Controllers\\PokemonController.cs",
+              "RelativeToolTip": "WebApiPractice\\Controllers\\PokemonController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwC0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T05:41:16.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebApiPractice\\Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "WebApiPractice\\Repository\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T07:10:09.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebApiPractice\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "WebApiPractice\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T07:07:49.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Helper\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "WebApiPractice\\Helper\\MappingProfiles.cs",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Helper\\MappingProfiles.cs",
+              "RelativeToolTip": "WebApiPractice\\Helper\\MappingProfiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:29:51.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPokemonrepository.cs",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Interfaces\\IPokemonrepository.cs",
+              "RelativeDocumentMoniker": "WebApiPractice\\Interfaces\\IPokemonrepository.cs",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Interfaces\\IPokemonrepository.cs",
+              "RelativeToolTip": "WebApiPractice\\Interfaces\\IPokemonrepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T05:36:42.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PokemonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Repository\\PokemonRepository.cs",
+              "RelativeDocumentMoniker": "WebApiPractice\\Repository\\PokemonRepository.cs",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Repository\\PokemonRepository.cs",
+              "RelativeToolTip": "WebApiPractice\\Repository\\PokemonRepository.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAwwCkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T05:37:59.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240715084220_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Migrations\\20240715084220_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApiPractice\\Migrations\\20240715084220_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Migrations\\20240715084220_InitialCreate.cs",
+              "RelativeToolTip": "WebApiPractice\\Migrations\\20240715084220_InitialCreate.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T08:42:20.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240715083639_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Migrations\\20240715083639_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApiPractice\\Migrations\\20240715083639_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Migrations\\20240715083639_InitialCreate.cs",
+              "RelativeToolTip": "WebApiPractice\\Migrations\\20240715083639_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T08:36:39.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Modals\\Review.cs",
+              "RelativeDocumentMoniker": "WebApiPractice\\Modals\\Review.cs",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Modals\\Review.cs",
+              "RelativeToolTip": "WebApiPractice\\Modals\\Review.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:55:51.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Modals\\Country.cs",
+              "RelativeDocumentMoniker": "WebApiPractice\\Modals\\Country.cs",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Modals\\Country.cs",
+              "RelativeToolTip": "WebApiPractice\\Modals\\Country.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:54:19.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Owner.cs",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Modals\\Owner.cs",
+              "RelativeDocumentMoniker": "WebApiPractice\\Modals\\Owner.cs",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Modals\\Owner.cs",
+              "RelativeToolTip": "WebApiPractice\\Modals\\Owner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:52:54.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApiPractice\\appsettings.json",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\appsettings.json",
+              "RelativeToolTip": "WebApiPractice\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T07:28:43.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PokemonCategory.cs",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Modals\\PokemonCategory.cs",
+              "RelativeDocumentMoniker": "WebApiPractice\\Modals\\PokemonCategory.cs",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Modals\\PokemonCategory.cs",
+              "RelativeToolTip": "WebApiPractice\\Modals\\PokemonCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T07:10:23.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PokemonOwner.cs",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Modals\\PokemonOwner.cs",
+              "RelativeDocumentMoniker": "WebApiPractice\\Modals\\PokemonOwner.cs",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Modals\\PokemonOwner.cs",
+              "RelativeToolTip": "WebApiPractice\\Modals\\PokemonOwner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T07:11:54.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Reviewer.cs",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Modals\\Reviewer.cs",
+              "RelativeDocumentMoniker": "WebApiPractice\\Modals\\Reviewer.cs",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Modals\\Reviewer.cs",
+              "RelativeToolTip": "WebApiPractice\\Modals\\Reviewer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:57:12.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Seed.cs",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Seed.cs",
+              "RelativeDocumentMoniker": "WebApiPractice\\Seed.cs",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\Seed.cs",
+              "RelativeToolTip": "WebApiPractice\\Seed.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowEIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T08:19:41.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WebApiPractice.csproj",
+              "DocumentMoniker": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\WebApiPractice.csproj",
+              "RelativeDocumentMoniker": "WebApiPractice\\WebApiPractice.csproj",
+              "ToolTip": "C:\\Users\\ayushk\\source\\repos\\WebApiPractice\\WebApiPractice\\WebApiPractice.csproj",
+              "RelativeToolTip": "WebApiPractice\\WebApiPractice.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-15T06:40:17.289Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
