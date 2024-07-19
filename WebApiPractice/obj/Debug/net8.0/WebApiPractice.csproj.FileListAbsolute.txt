@@ -136,3 +136,4 @@ C:\Users\ayushk\source\repos\WebApiPractice\WebApiPractice\obj\Debug\net8.0\WebA
 C:\Users\ayushk\source\repos\WebApiPractice\WebApiPractice\obj\Debug\net8.0\WebApiPractice.genruntimeconfig.cache
 C:\Users\ayushk\source\repos\WebApiPractice\WebApiPractice\obj\Debug\net8.0\ref\WebApiPractice.dll
 C:\Users\ayushk\source\repos\WebApiPractice\WebApiPractice\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\ayushk\source\repos\WebApiPractice\WebApiPractice\obj\Debug\net8.0\WebApiPractice.sourcelink.json

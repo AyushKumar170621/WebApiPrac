@@ -7,7 +7,8 @@ namespace WebApiPractice.Interfaces
         ICollection<Category> GetCategories();
         Category GetCategory(int id);
         ICollection<Pokemon> GetPokemonByCategory(int categoryId);
-        bool CategoryExisits(int id);
-        bool CategoryExists(int pokeId);
+        bool CategoryExists(int id);
+        bool CreateCategory(Category category);
+        bool Save();
     }
 }

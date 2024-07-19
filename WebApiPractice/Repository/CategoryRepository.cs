@@ -14,9 +14,20 @@ namespace WebApiPractice.Repository
         {
             _datacontext = context;
         }
-        public bool CategoryExisits(int id)
+        public bool CategoryExists(int id)
         {
             return _datacontext.Categories.Any(c => c.Id == id);
+        }
+
+        public bool CreateCategory(Category category)
+        {
+            _datacontext.Add(category);
+            return Save();
+        }
+        public bool Save()
+        {
+            var saved = _datacontext.SaveChanges();
+            return saved > 0 ? true: false;
         }
 
         public ICollection<Category> GetCategories()

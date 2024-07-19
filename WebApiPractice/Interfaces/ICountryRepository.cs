@@ -11,5 +11,8 @@ namespace WebApiPractice.Interfaces
         ICollection<Owner> GetOwnersFromCountry(int  countryId);
         bool CountryExists(int id);
 
+        bool CreateCountry(Country country);
+        bool Save();
+
     }
 }
