@@ -13,9 +13,12 @@ namespace WebApiPractice.Controllers
     {
         private readonly IMapper _mapper;
         private readonly IOwnerRepository _ownerRepository;
-        public OwnerController(IOwnerRepository repository,IMapper mapper) 
+        private readonly ICountryRepository _countryRepository;
+
+        public OwnerController(IOwnerRepository repository, ICountryRepository countryRepository,IMapper mapper) 
         {
             _ownerRepository=repository;
+            _countryRepository = countryRepository;
             _mapper = mapper;   
         }
         [HttpGet]
@@ -60,6 +63,90 @@ namespace WebApiPractice.Controllers
                 return BadRequest(ModelState);
             }
             return Ok(owner);
+        }
+
+        [HttpPost]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        public IActionResult CreateOwner([FromQuery] int countryId,[FromBody] OwnerDto ownerCreate)
+        {
+            if (ownerCreate == null)
+                return BadRequest(ModelState);
+
+            var country = _ownerRepository.GetOwners().Where(c => c.Name.Trim().ToUpper() == ownerCreate.Name.TrimEnd().ToUpper()).FirstOrDefault();
+            if (country != null)
+            {
+                ModelState.AddModelError("", "Owner already exists");
+                return StatusCode(422, ModelState);
+            }
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var ownerMap = _mapper.Map<Owner>(ownerCreate);
+            ownerMap.Country = _countryRepository.GetCountry(countryId);
+            if (!_ownerRepository.CreateOwner(ownerMap))
+            {
+                ModelState.AddModelError("", "Something went wrong while saving");
+                return StatusCode(500, ModelState);
+            }
+            return Ok("Successfully created");
+        }
+
+        [HttpPut("{ownerId}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        public IActionResult UpdateCategory(int ownerId, [FromBody] OwnerDto updatedOwner)
+        {
+            if (updatedOwner == null)
+            {
+                return BadRequest(ModelState);
+            }
+            if (ownerId != updatedOwner.Id)
+            {
+                return BadRequest(ModelState);
+            }
+
+            if (!_ownerRepository.OwnerExists(ownerId))
+            {
+                return NotFound();
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var ownerMap = _mapper.Map<Owner>(updatedOwner);
+            if (!_ownerRepository.UpdateOwner(ownerMap))
+            {
+                ModelState.AddModelError("", "Something went wrong while updating");
+                return StatusCode(500, ModelState);
+            }
+            return Ok("Successfully updated");
+        }
+        [HttpDelete("{ownerId}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        public IActionResult DeleteOwner(int ownerId)
+        {
+            if (!_ownerRepository.OwnerExists(ownerId))
+            {
+                return NotFound();
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var ownerToDelete = _ownerRepository.GetOwner(ownerId);
+            if (!_ownerRepository.DeleteOwner(ownerToDelete))
+            {
+                ModelState.AddModelError("", "Something went wrong while deleting");
+                return StatusCode(500, ModelState);
+            }
+            return Ok("Successfully deleted");
         }
     }
 }

@@ -62,5 +62,65 @@ namespace WebApiPractice.Controllers
             }
             return Ok(reviews);
         }
+
+        [HttpPost]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        public IActionResult CreateReviewer([FromBody] ReviewerDto reviewerCreate)
+        {
+            if (reviewerCreate == null)
+                return BadRequest(ModelState);
+
+            var reviewer = _reviewerRepository.GetReviewers().Where(c => c.LastName.Trim().ToUpper() == reviewerCreate.LastName.TrimEnd().ToUpper()).FirstOrDefault();
+            if (reviewer != null)
+            {
+                ModelState.AddModelError("", "Review already exists");
+                return StatusCode(422, ModelState);
+            }
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var reviewerMap = _mapper.Map<Reviewer>(reviewerCreate);
+            if (!_reviewerRepository.CreateReviewer(reviewerMap))
+            {
+                ModelState.AddModelError("", "Something went wrong while saving");
+                return StatusCode(500, ModelState);
+            }
+            return Ok("Successfully created");
+        }
+
+        [HttpPut("{reviewerId}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        public IActionResult UpdateCategory(int reviewerId, [FromBody] ReviewerDto updatedReviewer)
+        {
+            if (updatedReviewer == null)
+            {
+                return BadRequest(ModelState);
+            }
+            if (reviewerId != updatedReviewer.Id)
+            {
+                return BadRequest(ModelState);
+            }
+
+            if (!_reviewerRepository.ReviewerExists(reviewerId))
+            {
+                return NotFound();
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var reviewerMap = _mapper.Map<Reviewer>(updatedReviewer);
+            if (!_reviewerRepository.UpdateReviewer(reviewerMap))
+            {
+                ModelState.AddModelError("", "Something went wrong while updating");
+                return StatusCode(500, ModelState);
+            }
+            return Ok("Successfully updated");
+        }
     }
 }

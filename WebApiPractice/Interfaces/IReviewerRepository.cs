@@ -8,5 +8,8 @@ namespace WebApiPractice.Interfaces
         Reviewer GetReviewer(int reviewerId);
         ICollection<Review> GetReviewsbyReviewer(int reviewerId);
         bool ReviewerExists(int reviewerId);
+        bool CreateReviewer(Reviewer reviewer);
+        bool UpdateReviewer(Reviewer reviewer);
+        bool Save();
     }
 }

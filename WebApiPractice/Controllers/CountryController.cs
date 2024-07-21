@@ -80,14 +80,71 @@ namespace WebApiPractice.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var categoryMap = _mapper.Map<Country>(countryCreate);
+            var countryMap = _mapper.Map<Country>(countryCreate);
 
-            if (!_countryRepository.CreateCountry(categoryMap))
+            if (!_countryRepository.CreateCountry(countryMap))
             {
                 ModelState.AddModelError("", "Something went wrong while saving");
                 return StatusCode(500, ModelState);
             }
             return Ok("Successfully created");
+        }
+
+        [HttpPut("{countryId}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        public IActionResult UpdateCategory(int countryId, [FromBody] CountryDto updatedCountry)
+        {
+            if (updatedCountry == null)
+            {
+                return BadRequest(ModelState);
+            }
+            if (countryId != updatedCountry.Id)
+            {
+                return BadRequest(ModelState);
+            }
+
+            if (!_countryRepository.CountryExists(countryId))
+            {
+                return NotFound();
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var countryMap = _mapper.Map<Country>(updatedCountry);
+            if (!_countryRepository.UpdateCountry(countryMap))
+            {
+                ModelState.AddModelError("", "Something went wrong while updating");
+                return StatusCode(500, ModelState);
+            }
+            return Ok("Successfully updated");
+        }
+
+        [HttpDelete("{countryId}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        public IActionResult DeleteCountry(int countryId)
+        {
+            if (!_countryRepository.CountryExists(countryId))
+            {
+                return NotFound();
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var countryToDelete = _countryRepository.GetCountry(countryId);
+            if (!_countryRepository.DeleteCountry(countryToDelete))
+            {
+                ModelState.AddModelError("", "Something went wrong while deleting");
+                return StatusCode(500, ModelState);
+            }
+            return Ok("Successfully deleted");
         }
         //[HttpGet("{ownerId}/owners")]
         //[ProducesResponseType(200, Type = typeof(IEnumerable<Owner>))]

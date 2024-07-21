@@ -12,6 +12,34 @@ namespace WebApiPractice.Repository
             _dataContext = context;
         }
 
+        public bool CreatePokemon(int ownerId, int categoryId, Pokemon pokemon)
+        {
+            var pokemonOwner = _dataContext.Owners.Where(o => o.Id == ownerId).FirstOrDefault();
+            var category = _dataContext.Categories.Where( c => c.Id == categoryId ).FirstOrDefault();
+
+            var pokeOwner = new PokemonOwner()
+            {
+                Owner = pokemonOwner,
+                Pokemon = pokemon,
+            };
+            _dataContext.Add(pokeOwner);
+
+            var pokeCat = new PokemonCategory()
+            {
+                Category = category,
+                Pokemon = pokemon,
+            };
+            _dataContext.Add(pokeCat);
+            _dataContext.Add(pokemon);
+            return Save();
+        }
+
+        public bool DeletePokemon(Pokemon pokemon)
+        {
+            _dataContext.Remove(pokemon);
+            return Save();
+        }
+
         public Pokemon GetPokemon(int id)
         {
             return _dataContext.Pokemon.Where(p => p.Id == id).FirstOrDefault();
@@ -40,6 +68,18 @@ namespace WebApiPractice.Repository
         public bool PokemonExists(int pokeId)
         {
             return _dataContext.Pokemon.Any(p => p.Id == pokeId);
+        }
+
+        public bool Save()
+        {
+            var saved = _dataContext.SaveChanges();
+            return saved > 0 ? true:false;
+        }
+
+        public bool UpdatePokemon(int ownerId, int categoryId, Pokemon pokemon)
+        {
+            _dataContext.Update(pokemon);
+            return Save();
         }
     }
 }

@@ -44,5 +44,17 @@ namespace WebApiPractice.Repository
         {
             return _datacontext.PokemonCategories.Where(e=>e.CategoryId == categoryId).Select(c => c.Pokemon).ToList();
         }
+
+        public bool UpdateCategory(Category category)
+        {
+            _datacontext.Update(category);
+            return Save();
+        }
+
+        public bool DeleteCategory(Category category)
+        {
+            _datacontext.Remove(category);
+            return Save();
+        }
     }
 }
